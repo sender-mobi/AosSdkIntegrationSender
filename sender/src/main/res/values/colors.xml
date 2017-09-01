@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Sender color-->
+    <color name="colorPrimary">#666699</color>
+    <color name="colorPrimaryDark">#4e4e74</color>
+    <color name="colorAccent">#44C0FF</color>
+
+    <color name="colorBackground">#0D666699</color>
+    <color name="colorDivider">#e5e5e5</color>
+    <color name="colorWhite">#fafafa</color>
+    <color name="colorGreen">#4CAF50</color>
+    <color name="colorProgressBar">#ef5250</color>
+    <color name="colorRed">#ff6460</color>
+    <color name="colorRedTransparent">#A6ff635f</color>
+    <color name="colorGray">#8a000000</color>
+    <color name="colorHint">#61000000</color>
+    <color name="colorBgNewMsg">#616161</color>
+
+    <!--Dark text on light backgrounds-->
+    <color name="primaryText">#D9000000</color>
+    <color name="secondaryText">#8C000000</color>
+    <color name="hintText">#59000000</color>
+    <color name="dividers">#1F000000</color>
+
+    <!--White text on dark backgrounds-->
+    <color name="primaryTextWhite">#FFFFFF</color>
+    <color name="secondaryTextWhite">#B3FFFFFF</color>
+    <color name="hintTextWhite">#80FFFFFF</color>
+    <color name="dividersWhite">#1FFFFFFF</color>
+
+
+    <!--Chat bubbles backgrounds light-->
+    <color name="colorBubbleMy">#C5ECFF</color>
+    <color name="colorBubbleMyEncr">#FFE4BD</color>
+    <color name="colorBubbleMyHide">#FFC6C5</color>
+
+    <color name="colorBubbleOppo">#FFFFFF</color>
+    <color name="colorBubbleOppoEncr">#FFF6E9</color>
+    <color name="colorBubbleOppoHide">#FFE7E7</color>
+
+    <!--Chat bubbles border light-->
+    <color name="colorBorderDefault">#D6D6D6</color>
+    <color name="colorBubbleBorderEncr">#D6CEC3</color>
+    <color name="colorBubbleBorderHide">#D6C1C1</color>
+
+    <color name="colorItemBackground">@color/primaryTextWhite</color>
+
+
+    <!--Chat bubbles backgrounds dark-->
+    <color name="colorBubbleMyDark">#374E5A</color>
+    <color name="colorBubbleMyEncrDark">#745B36</color>
+    <color name="colorBubbleMyHideDark">#693E3D</color>
+
+    <color name="colorBubbleOppoDark">#303030</color>
+    <color name="colorBubbleOppoEncrDark">#4E4236</color>
+    <color name="colorBubbleOppoHideDark">#563A3A</color>
+
+    <!--Chat bubbles border dark-->
+    <color name="colorBorderDefaultDark">#222222</color>
+    <color name="colorBubbleBorderEncrDark">#31261B</color>
+    <color name="colorBubbleBorderHideDark">#352020</color>
+
+    <color name="colorItemBackgroundDark">@color/primaryText</color>
+
+</resources>

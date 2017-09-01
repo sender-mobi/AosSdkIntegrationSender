@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ui.ChatActivity"
+    tools:showIn="@layout/profile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/tell_friends"
+            layout="@layout/profile_item" />
+
+        <include
+            android:id="@+id/wallet"
+            layout="@layout/profile_item" />
+
+        <include
+            android:id="@+id/shop"
+            layout="@layout/profile_item" />
+
+        <include
+            android:id="@+id/add_company"
+            layout="@layout/profile_item" />
+
+        <include
+            android:id="@+id/settings"
+            layout="@layout/profile_item" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

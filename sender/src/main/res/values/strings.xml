@@ -1,0 +1,371 @@
+<resources>
+    <!--Consts-->
+    <string name="google_maps_api_key_release" translatable="false">AIzaSyBfVYDP-PuOO2pov8QaZAENaDT4rOLdPx4</string>
+    <!--<string name="google_maps_api_key_release" translatable="false">AIzaSyBkep_0WoNDVD1Nt8FolWqos4MpwP3yqGU</string>-->
+    <!--<string name="google_maps_api_key_release" translatable="false">AIzaSyA29j2YS7O3eMVn5BrCZ1hldkF3E4YSk3g</string>-->
+    <string name="app_name" translatable="false">Sender</string>
+    <string name="provider_str" translatable="false">mobi.sender.fileprovider</string>
+
+    <!--Toolbar-->
+    <string name="tlb_reg">Sign in</string>
+    <string name="tlb_phone_confirm">Phone confirmation</string>
+    <string name="tlb_keys_sync">Keys synchronization</string>
+    <string name="tlb_data_sync">Data synchronization</string>
+    <string name="tlb_settings">Settings</string>
+    <string name="tlb_qr_code">Qr-code</string>
+    <string name="tlb_members">" members"</string>
+    <string name="tlb_caption">Location</string>
+    <string name="tlb_registration">Registration</string>
+    <string name="tlb_confirmation">Confirmation</string>
+    <string name="tlb_password_encryption">Password encryption</string>
+    <string name="tlb_new_group_chat">New group chat</string>
+    <string name="tlb_new_forward_mess">Forward message</string>
+
+    <!--Registration-->
+    <string name="reg_click_agree">When you press \"Continue\" button, you confirm that you has read and agree
+        <a href="#">and user agreement</a>
+    </string>
+    <string name="reg_wait_confirm">Sender waiting of confirmation on your another device:</string>
+    <string name="reg_sender_now_calling_to_you">Sender now calling to you…</string>
+    <string name="reg_phone_number">Phone number</string>
+
+    <!--ProfilePage-->
+    <string name="prf_tell_friends">Tell friends</string>
+    <string name="prf_wallet">Wallet</string>
+    <string name="prf_shop">Shop</string>
+    <string name="prf_add_company">Create robot</string>
+    <string name="prf_install_this_app">"Install this app "</string>
+
+    <!--Notificator-->
+    <string name="ntf_new_messages_in_gcm">New messages in</string>
+    <string name="ntf_chats_gcm">chats</string>
+    <string name="ntf_you_removed_from_chat">"You have been removed from the chat: "</string>
+
+    <!--BtcActivity-->
+    <string name="btc_export">Export wallet</string>
+    <string name="btc_import">Import wallet</string>
+    <string name="btc_new">Create new wallet</string>
+    <string name="btc_change_pass">Change password</string>
+    <string name="btc_export_instr">Open your wallet application on another device and scan this QR to import wallet
+        private key in bip39 format
+    </string>
+    <string name="btc_export_instr2">… or use this mnemonic code:</string>
+    <string name="btc_setup_pass">Setup new password</string>
+    <string name="btc_pass_hint1">Enter new password</string>
+    <string name="btc_pass_hint2">Re-type new password</string>
+
+    <!--SettingsActivity-->
+    <string name="stg_enter_new_user_name">Enter new user name</string>
+    <string name="stg_enter_new_status">Enter new status</string>
+    <string name="stg_new_user_name_error_msg">Enter new user name!</string>
+    <string name="stg_new_status_error_msg">Enter new user status!</string>
+    <string name="stg_are_you_sure_logout">Are you sure to logout from Sender on this device?</string>
+    <string name="stg_are_you_sure_disable_other">Are you sure to logout from Sender on other devices?</string>
+    <string name="stg_are_you_sure_clear_cashe">Are you sure to remove all downloaded files?</string>
+    <string name="stg_are_you_sure_reset">Are you sure to reset all settings to defaults?</string>
+    <string name="stg_are_you_sure_clear_history">Are you sure clear history?</string>
+    <string name="stg_profile">Profile</string>
+    <string name="stg_photo">Photo</string>
+    <string name="stg_name">Name</string>
+    <string name="stg_user_name">User Name</string>
+    <string name="stg_status">Status</string>
+    <string name="stg_general">General</string>
+    <string name="stg_send_status_read">Send status read</string>
+    <string name="stg_language">Language</string>
+    <string name="stg_notifications">Notifications</string>
+    <string name="stg_sound">Sound</string>
+    <string name="stg_cleanup">Cleanup</string>
+    <string name="stg_disable_this_device">Disable this device</string>
+    <string name="stg_disable_other_devices">Disable other devices</string>
+    <string name="stg_clear_media_files">Clear media files</string>
+    <string name="stg_clear_history">Clear history</string>
+    <string name="stg_reset_settings">Reset settings</string>
+    <string name="stg_disable_gps">Send GPS data</string>
+
+    <!--Map-->
+    <string name="map_determinate_location">Try to determine location. Wait please</string>
+    <string name="map_disable_location_name">Can\'t get name of location</string>
+
+    <!--Chat-->
+    <string name="cht_sendbar_transfer">Transfer</string>
+    <string name="cht_sendbar_recharge">Recharge</string>
+    <string name="cht_camera">Camera</string>
+    <string name="cht_gallery">Gallery</string>
+    <string name="cht_file">File</string>
+    <string name="cht_contact">Contact</string>
+    <string name="cht_location">Location</string>
+    <string name="cht_press_to_record">Hold record button and speak.</string>
+    <string name="cht_press_to_listen">Press play button to listen.</string>
+    <string name="cht_your_message">Your message</string>
+    <string name="cht_new_messages">New messages</string>
+    <string name="cht_file_too_large">File is to large. Maximum file size is 100 Mb.</string>
+
+    <!--Animation values-->
+    <integer name="fab_duration" translatable="false">200</integer>
+
+    <!--ChatInfoActivity-->
+    <string name="chi_favorite">Favorite</string>
+    <string name="chi_block">Block</string>
+    <string name="chi_encrypt">Encrypt</string>
+    <string name="chi_mute">Turn off notifications</string>
+    <string name="chi_palette">Chat background</string>
+    <string name="chi_leave_chat">Leave chat</string>
+    <string name="chi_add_people">Add participant</string>
+    <string name="chi_company_card">The card of company</string>
+    <string name="chi_phone">Phone</string>
+
+    <!--Action settings-->
+    <string name="act_done" translatable="false">Done</string>
+    <string name="act_call" translatable="false">Call</string>
+    <string name="act_info" translatable="false">Info</string>
+    <string name="act_chat" translatable="false">Chat</string>
+
+    <!--Buttons-->
+    <string name="btn_create_new">Create new</string>
+    <string name="btn_repeat_password">Repeat password</string>
+    <string name="btn_scan">Scan</string>
+    <string name="btn_continue">Continue</string>
+    <string name="btn_add">Add</string>
+    <string name="btn_i_didn_t_receive_sms">I didn\'t receive SMS</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_go_to_chat">Go to chat</string>
+    <string name="btn_unblock">Unblock</string>
+    <string name="btn_close">Close</string>
+    <string name="btn_go">Go</string>
+
+    <!--MsgRecAdapter-->
+    <string name="msg_im_here">I\'m here</string>
+    <string name="msg_today">Today</string>
+    <string name="msg_yesterday">Yesterday</string>
+    <string name="msg_two_days">2 days ago</string>
+    <string name="msg_three_and_four_days">%d days ago</string>
+    <string name="msg_other_days">%d days ago</string>
+    <string name="msg_not_sent">Not sent</string>
+    <string name="msg_sent">Sent</string>
+    <string name="msg_delivered">Delivered</string>
+    <string name="msg_viewed">Viewed</string>
+    <string name="msg_mess_deleted">Message deleted</string>
+    <string name="msg_typing">" typing…"</string>
+    <string name="msg_my_status">My status</string>
+    <string name="msg_deleted">"deleted "</string>
+    <string name="msg_from_chat">" from chat"</string>
+    <string name="msg_added">"added "</string>
+    <string name="msg_to_chat">" to chat"</string>
+    <string name="msg_leave_chat">leave from chat</string>
+    <string name="msg_form">Form</string>
+    <string name="msg_encr">" enabled chat encryption"</string>
+    <string name="msg_i">I</string>
+    <string name="msg_encr_mess">Encrypted message</string>
+    <string name="msg_no_user">User with this number doesn\'t exist</string>
+    <string name="msg_you_join_the_chat">You have joined the chat</string>
+    <string name="msg_you">"You "</string>
+    <string name="msg_you_2">"you"</string>
+    <string name="msg_you_and">"you and "</string>
+    <string name="msg_deleted_2">"deleted "</string>
+    <string name="msg_added_2">"added "</string>
+    <string name="msg_encr_of">" disabled chat encryption"</string>
+    <string name="msg_new_message">New message</string>
+    <string name="msg_select_them">" select theme "</string>
+    <string name="msg_you_set_theme">You set the theme \'</string>
+    <string name="msg_you_leave_chat">You left the chat</string>
+    <string name="msg_you_removed_from_the_chat">You removed from the chat</string>
+    <string name="msg_joined_the_chat">" joined the chat"</string>
+    <string name="msg_create_group_dialog">Create group dialog</string>
+    <string name="msg_group_name">Group name</string>
+    <string name="msg_add_participant">Add participant</string>
+    <string name="msg_loading">loading...</string>
+
+    <!--Toast-->
+    <string name="tst_chat_not_found">Chat not found</string>
+    <string name="tst_disabled_access_call">You disabled access to call phone. Make phone calls will be unavailable.</string>
+    <string name="tst_call_avalible">Phone number is unavailable</string>
+    <string name="tst_acces_location_enabled">Access to location is enabled. Please retry operation</string>
+    <string name="tst_you_disabled_acces_location">You disabled access to location. Location info will be unavailable.</string>
+    <string name="tst_acces_mic_enabled">Access to microphone is enabled. Please retry operation</string>
+    <string name="tst_disabled_mic">You disabled access to microphone. Record sound messages will be unavailable.</string>
+    <string name="tst_search">Search</string>
+    <string name="tst_coming_soon">Coming soon</string>
+    <string name="tst_success">Complete successfully</string>
+    <string name="tst_operation_canceled">Operation cancelled</string>
+    <string name="tst_no_free_space">No free space on SD-card</string>
+    <string name="tst_connecting">Connecting…</string>
+    <string name="tst_close">Close</string>
+    <string name="tst_pass_incorrect">Password incorrect</string>
+    <string name="tst_pass_empty">Empty pas</string>
+    <string name="tst_not_member">You are no longer a member of this chat</string>
+    <string name="tst_qr_sent">QR sent successfully</string>
+    <string name="tst_access_garanted">Access to accounts is not granted!</string>
+    <string name="tst_error">Error, please try again later</string>
+    <string name="tst_wrong_number">Wrong phone number</string>
+    <string name="tst_no_found_app">No application found to open attachment</string>
+    <string name="tst_same_user">You already have this user</string>
+    <string name="tst_name_cant_be_empty">Name can\'t be empty</string>
+    <string name="tst_phone_copied">Phone copied</string>
+    <string name="tst_exceeded_allowed_number">You have exceeded the allowed number of attempts</string>
+    <string name="tst_many">Many request</string>
+    <string name="tst_you_have_canceled_auth">You have canceled authorization</string>
+    <string name="tst_exceed_otp_pass">You have exceeded the number of attempts to enter the OTP password</string>
+    <string name="tst_otp_pass_has_expired">OTP password has expired</string>
+    <string name="tst_you_entered_incorrect_sms">You entered incorrect SMS code</string>
+    <string name="tst_register_on_the_mobile_version">Please register on the mobile version first https://sender.mobi/</string>
+    <string name="tst_permission_not_granted">Permission not granted</string>
+    <string name="tst_link_copied">Link copied</string>
+    <string name="tst_permission_sms_off">You do not include permission sms</string>
+    <string name="tst_select_google_account">Select a Google account</string>
+    <string name="tst_error_save_photo">Failed to save the photo. Repeat please</string>
+    <string name="tst_agreement">License Agreement with End User of Sender Program\n
+\n
+•	Acceptance of the Terms of Agreement\n
+1.1. This Agreement is signed between Middleware Inc. (“We”) being the owner of www.sender.mobi web-site and Sender software, including Sender mobile application ("Sender services" or "Services"), and You, the user of Sender services (“You”).\n
+1.2. This Agreement represents the legally binding document entered into by Middleware Inc. and You which explains Your rights and obligations as the user of Sender services.\n
+1.3. Before using Sender services, You have read the terms and conditions of this Agreement in their entirety, without any exceptions and limitation on Your part. You undertake to observe the said terms and conditions, or to discontinue the usage of Sender services. If You do not agree with the terms of this Agreement or if You have no right to enter into an agreement based thereon because of any legal or other restrictions, You should immediately discontinue any use of Sender services.\n
+1.4. If you have not reached the age required for eligibility to enter the agreements of this kind, You confirm obtaining the legal consent of duly authorized persons, and You are fully capable of observing and complying with the terms of this Agreement. The Services are not intended for persons under 13 years of age.\n
+1.5. We reserve all the rights not expressly granted to You.\n
+        \n
+•	Usage of Sender services\n
+2.1. Usage of the functionality of Sender services is allowed on condition of Your acceptance of the terms of this Agreement and only after Your registration in accordance with the procedure specified by the software for providing the Services.\n
+2.2. We entitle You to use the Services provided that:\n
+1) You will use the Services solely for personal purposes and will not transfer the use of Services to any third parties at a charge;\n
+2) You will not interfere with the work of Sender services’ software in any way which may violate the terms of this Agreement;\n
+3) You will comply with the terms of this Agreement;\n
+4) You will not use the Services for mass commercial mailing and other mailings;\n
+5) You will not use the Services for any illegal activity with regard to Us and any users of the Services.\n
+2.3. For registration as a user of the Services, You agree to give mobile phone number to Us. You agree provide Us with the access to mobile phone contact list to find and to inform You about other users of the Services.\n
+2.4. With the use of Sender services You can gain free or paid access to additional services of the third parties (games, icons, avatars, smiles, beeps and other Internet-content). Terms and conditions of additional service use shall be governed by separate agreements between You and providers of the additional services. Before making any payment, You will be notified of the services paid and its cost.\n
+        \n
+•	Intellectual Property Rights\n
+3.1. We are the owners of intellectual property rights to Sender services, design, graphics, and marks for goods and services which are used in Sender.\n
+3.2. After Your registration We give You the right of functional use of Sender services under simple (nonexclusive) nontransferable license within the available functionality.\n
+3.3. You may not rent, lease, lend, sell, distribute or sublicense the software, the right to using which is granted by this Agreement.\n
+3.4. You may not copy, decompile, redesign, disassemble, attempt to derive the source code, modify or create any derivative works of the licensed applications, updates, or any part thereof.\n
+3.5. Terms of the license cover any updates offered by Us.\n
+        \n
+•	User Information\n
+Due to the functional purpose of Sender service You and other users are given an opportunity to send text messages, photos, videos, and similar information. These user messages can be visible to other users of Sender services. In view of this, please, consider the following.\n
+4.1. You acknowledge and agree that any information provided within the registration procedure can be accessed by other user\n
+    s of the Services.\n
+4.2. You understand that Sender does not guarantee confidentiality with regard to any data downloaded by the users.\n
+4.3. You are responsible for possible consequences of placement and publication of any data with the use of Our software.\n
+4.4. With regard to any information You have posted You confirm or guarantee that You have all the necessary rights and permits for placing the information and entitle Us to such publication.\n
+4.5. By placing the information through Our software, You give us worldwide, non-exclusive, royalty-free license to distribute such information.\n
+4.6. You also grant each user of the Services non-exclusive license to access the information provided through the Service.\n
+4.7. You agree that You commit no violations of any restrictions on usage of the Services as stipulated in this Agreement.\n
+4.8. Sender does not allow any infringement of copyrights and intellectual property rights by its Services; in this regard, we reserve the right to remove any information at the request of a third party towards the copyright infringement. Notice of infringement of copyright can be filed electronically or sent as a written document by ordinary mail to our contact details provided.\n
+4.9. In the course of usage of Sender services, You may be faced with information that may be deemed offensive, indecent or objectionable. Nevertheless, You agree to use the Service at your own risk and We accept no responsibility to You for the content that may be deemed offensive, indecent or objectionable.\n
+        \n
+•	Your Warranties\n
+By accepting the terms and conditions of this Agreement, You represent and warrant that:\n
+5.1. You have all the necessary rights and authority to enter into and to fulfill this Agreement;\n
+5.2. Sender services shall be used by You solely for the purposes authorized by this Agreement in compliance with its provisions and established practice;\n
+5.3. You will not engage in any activities conflicting with or impeding the provision of Sender services or the work of the relevant equipment;\n
+5.4. Usage of Sender services for Your specific purposes does not violate any third party property and/or personal non-property rights, as well as any prohibitions and restrictions imposed by the applicable law, including but not limited to: copyrights and related rights, rights to trademarks, service marks and appellations of origin of the goods, design rights, right to use images of people; materials provided by You do not contain any information and/or images which may give offence to or harm business reputation of individuals, or which promulgate the violence, pornography, drugs, racial or ethnic hatred, and You have obtained all the necessary permits in connection with the use of such materials from the authorized persons.\n
+        \n
+•	Restrictions\n
+By accepting the terms and conditions of this Agreement, You acknowledge and agree that:\n
+6.1. Provisions of the legislation on consumer rights’ protection shall not apply to relations between the parties on rendering Sender services on a free of charge basis.\n
+6.2. The Services are provided on "as is" basis; therefore, You are given no guarantee that the Services would meet your requirements; the Services will be uninterrupted, timely, secure or error free services; results which can be obtained using Sender services will be accurate and reliable ones; quality of any product, service, information and user materials obtained with the use of Sender services will meet your expectations; any Sender services’ software errors will be corrected.\n
+6.3. All the responsibility for the content of materials and its compliance with the requirements of the applicable laws shall be borne by the person having created these materials and placed the same in the Sender software.\n
+6.4. We have no relevance to the materials placed (and broadcasted) by Users and we do not review the content, authenticity and safety of these materials/components thereof, as well as their compliance with the requirements of the applicable laws and the necessary scope of the Users’ rights to use the same.\n
+6.5. You may not use Sender services for:\n
+1) placement and/or distribution of counterfeit materials;\n
+2) placement and/or distribution of pornographic materials, promulgation of pornography and child erotica, and advertising of intimate services;\n
+3) placement and/or distribution of any prohibited information including any materials of extremist nature, aimed at infringement of human rights and freedoms on the grounds of race, nationality, religion, language, sex and inciting to commit acts of violence against humans, or inhuman treatment of animals, and calling to commit other illegal actions, including those explaining the procedure of making and use of weapons, drugs and their precursors etc.;\n
+4) intentional infliction of embarrassment, threats, pursuit or invasion of privacy of any third party;\n
+5) distribution of promotional materials in private messages to other Users without their prior consent to receive the same (SPAM);\n
+6) commitment of other illegal and unethical actions.\n
+6.6. Despite the specified prohibition, in the course of using Sender service You can get the materials which You may find offensive or obscene, or otherwise violating the applicable law, the rights and/or interests of any third parties.\n
+6.7. In case of revealing any facts of violation of Your rights in connection with the provision of Sender services, including illegal placement of materials by any other User, You should let us know. To do this, You need to send to our contact details a written notice stating the circumstances of a breach and a link to materials that violate Your rights.\n
+6.8. We reserve the right to remove within 24 hours any materials or temporarily restrict access to these materials unilaterally, without giving any reason.\n
+6.9. In case of repeated or gross violation of the terms of this Agreement or any requirements of the law, we reserve the right to block the account of the offending user completely, and to delete it or otherwise limit (stop) the provision of Sender services.\n
+6.10. We bear no responsibility for usage of personal data of the users by anyone.\n
+6.11. Under any circumstances our liability is limited to the amount of fifty (50) US Dollars.\n
+6.12. We reserve the right to change, to suspend, to cancel, or to disconnect the access to the Services at any time without prior notice. In no event we are liable for the cancelation or blocking of the access to our service. We may also impose limits on the use of or access to our service without prior notice or liability.\n
+        \n
+•	Termination of the Agreement\n
+7.1. This Agreement shall be valid until it is terminated by either party.\n
+7.2. You may terminate your relations with Sender at any time. If you use our free service, you can simply stop using the service or uninstall the application.\n
+7.3. We are entitled to terminate the Agreement with You if:\n
+7.3.1. You have violated the terms of this Agreement;\n
+7.3.2. Sender reasonably suspects that You committed violation of the law or any legal rights of third parties, while using the Services;\n
+7.3.3. Sender reasonably suspects that You are using any of our products fraudulently or Your "User Account" is used by any third party by fraud;\n
+7.3.4. the Agreement should be terminated because of any changes in the legislation.\n
+7.4. Upon termination of the agreement, We are required to disconnect Your access to the Services.\n
+7.5. We reserve the right to cancel the account data users who have been inactive for more than one year.\n
+
+•	Amendments to the Agreement\n
+8.1. This Agreement can be amended by us unilaterally without prior notice. Amendments shall enter into effect on the date of their publication.\n
+8.2. The current version of this Agreement is available on the Internet at: www.sender.mobi/eula\n
+8.3. You understand and agree that Your acceptance of the terms of this Agreement or use of the Services after the date of publication of amendments constitutes Your acceptance of amended terms and conditions. If You do not agree with the amended terms, You may terminate your relations with Sender according to the procedure established by this Agreement\n
+        \n
+•	Miscellaneous Provisions\n
+9.1. You agree to receive the information e-mails from the Administration about important events related to the Services to Your e-mail address stated in Your profile on the Site.\n
+9.2. The Administration is entitled to use the messages to inform the user about the possibilities of the Sender services’ software.\n
+9.3. This Agreement constitutes the entire agreement between You and Sender and supersedes any prior or concurrent oral or written communications, proposals and representations with regard to the Services.\n
+        \n
+•	Sender Contact Details\n
+MIDDLEWARE INC. a company incorporated in United States under registration number 32-0447746, whose registered office is at 2711 Centerville Road, Suite 400, Wilmington, New Castle County 19808, support@sender.mobi</string>
+
+    <!--SyncBtcActivity-->
+    <string name="snc_have_stored_key">You have stored keys from other your devices. Enter password to restore it</string>
+    <string name="snc_password">Password</string>
+    <string name="snc_new_keys_created">On your device was created keys for encrypt messages. Please setup password for safety store this keys on server</string>
+    <string name="snc_data_sincing">Data synchronized with server. \nWait please...</string>
+    <string name="snc_agreement">License agreement</string>
+
+    <!--Dialogs-->
+    <string name="dlg_select_contact">Select contact</string>
+    <string name="dlg_edit">Edit</string>
+    <string name="dlg_delete">Delete</string>
+    <string name="dlg_select_action">Select an action</string>
+    <string name="dlg_are_you_sure">Are you sure?</string>
+    <string name="dlg_key_lost">All encrypted messages will be lost</string>
+    <string name="dlg_remove_user_chat">Do you really want to remove user from the chat?</string>
+    <string name="dlg_leave_chat">Are you sure you want to leave the chat?</string>
+    <string name="dlg_copy">Copy</string>
+    <string name="dlg_go_to_settings">Go to the Settings app?</string>
+    <string name="dlg_upload_photo">Upload a photo</string>
+    <string name="dlg_delete_photo">Delete photo</string>
+    <string name="dlg_select_an_action">Select an action</string>
+    <string name="dlg_enter_the_new_name">Enter the new name of the chat</string>
+    <string name="dlg_change_name">Change name</string>
+    <string name="dlg_change_photo">Change photo</string>
+    <string name="dlg_delete_dialog">Delete dialog</string>
+    <string name="dlg_add_to_favorites">Add to favorite</string>
+    <string name="dlg_remove_from_favorites">Remove from favorite</string>
+    <string name="dlg_choose_image_source">Choose image source</string>
+    <string name="dlg_gallery">Gallery</string>
+    <string name="dlg_camera">Camera</string>
+
+    <!--AddContactActivity-->
+    <string name="adc_phone_number">Номер телефона</string>
+    <string name="adc_qr_text">Быстро добавляйте контакты сканируя QR коды друзей. Для этого попросите друга перейти во вкладку «Еще» и нажать на кнопку с QR кодом</string>
+    <string name="adc_add_user">Add user</string>
+    <string name="adc_company_your_friend">Добавить компании Вашего друга</string>
+
+    <!--SearchActivity-->
+    <string name="src_search">Search</string>
+    <string name="src_the_list_is_empty">The list is empty</string>
+
+    <!--OTP-->
+    <string name="otp_we_sent_sms_code_on_your_device">We sent SMS code on your device</string>
+    <string name="otp_phone_number">Phone number</string>
+    <string name="otp_sms_code">SMS code</string>
+
+    <!--Stubs-->
+    <string name="stub_img">[Image]</string>
+    <string name="stub_file">[File]</string>
+    <string name="stub_sticker">[Sticker]</string>
+    <string name="stub_video">[Video]</string>
+    <string name="stub_audio">[Audio]</string>
+    <string name="stub_location">[Location]</string>
+    <string name="stub_encr_msg">[Encrypted message]</string>
+    <string name="stub_form">[Form]</string>
+    <string name="stub_encr_msg2">Encrypted message</string>
+    <string name="tst_permisson_denied">Permission denied</string>
+
+    <!--SharedActivity-->
+    <string name="shr_contacts">Contacts</string>
+    <string name="shr_groups">Groups</string>
+
+</resources>

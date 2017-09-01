@@ -1,0 +1,117 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--Main colors-->
+        <item name="attr_color_primary">@color/colorPrimary</item>
+        <item name="attr_color_primary_dark">@color/colorPrimaryDark</item>
+        <item name="attr_color_accent">@color/colorAccent</item>
+
+        <!--TextColors-->
+        <item name="attr_primaryText">@color/primaryText</item>
+        <item name="attr_secondaryText">@color/secondaryText</item>
+        <item name="attr_hintText">@color/hintText</item>
+
+        <item name="attr_fitsSystemWindows_main_activity">true</item>
+        <item name="attr_background">@color/colorBackground</item>
+
+        <!--Chat bubbles-->
+        <item name="attr_bubbleMy">@drawable/bubble_my</item>
+        <item name="attr_bubbleMyEncr">@drawable/bubble_my_encr</item>
+        <item name="attr_bubbleMyHide">@drawable/bubble_my_hide</item>
+
+        <item name="attr_bubbleOppo">@drawable/bubble_oppo</item>
+        <item name="attr_bubbleOppoEncr">@drawable/bubble_oppo_encr</item>
+        <item name="attr_bubbleOppoHide">@drawable/bubble_oppo_hide</item>
+
+        <!--To change the background of options menu-->
+        <item name="attr_itemBackground">@color/colorItemBackground</item>
+
+        <!--        <item name="attr_color_primary">#5b9b21</item>
+                <item name="attr_color_primary_dark">#ff000000</item>
+                <item name="attr_color_accent">#5b9b21</item>
+
+                &lt;!&ndash;TextColors&ndash;&gt;
+                <item name="attr_primaryText">#ffffff</item>
+                <item name="attr_secondaryText">@color/secondaryTextWhite</item>
+                <item name="attr_hintText">@color/hintTextWhite</item>
+
+                <item name="attr_fitsSystemWindows_main_activity">false</item>
+                <item name="attr_background">#0F1719</item>
+
+                &lt;!&ndash;Chat bubbles&ndash;&gt;
+                <item name="attr_bubbleMy">@drawable/bubble_my_dark</item>
+                <item name="attr_bubbleMyEncr">@drawable/bubble_my_encr_dark</item>
+                <item name="attr_bubbleMyHide">@drawable/bubble_my_hide_dark</item>
+
+                <item name="attr_bubbleOppo">@drawable/bubble_oppo_dark</item>
+                <item name="attr_bubbleOppoEncr">@drawable/bubble_oppo_encr_dark</item>
+                <item name="attr_bubbleOppoHide">@drawable/bubble_oppo_hide_dark</item>
+
+                <item name="attr_itemBackground">@color/colorItemBackgroundDark</item>-->
+
+
+
+        <!--Set attributes-->
+        <item name="colorPrimary">?attr/attr_color_primary</item>
+        <item name="colorPrimaryDark">?attr/attr_color_primary_dark</item>
+        <item name="colorAccent">?attr/attr_color_accent</item>
+        <item name="android:itemBackground">?attr/attr_itemBackground</item>
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="GroupChatTheme" parent="AppTheme">
+        <item name="android:textColorSecondary">@color/colorWhite</item>
+    </style>
+
+    <!--Views-->
+    <style name="ChiStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="ButtonPrimaryStyle" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">?attr/attr_color_primary</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <!--TextView-->
+    <style name="TvRegular">
+        <item name="android:textColor">?attr/attr_primaryText</item>
+        <item name="android:textColorHint">?attr/attr_hintText</item>
+        <item name="android:textSize">@dimen/txt_size_regular</item>
+    </style>
+
+    <style name="TvCaption">
+        <item name="android:textColor">?attr/attr_color_accent</item>
+        <item name="android:textSize">@dimen/txt_size_caption</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TvLarge">
+        <item name="android:textColor">?attr/attr_primaryText</item>
+        <item name="android:textSize">@dimen/txt_size_large</item>
+    </style>
+
+    <style name="TvChatStyle">
+        <item name="android:textColor">?attr/attr_primaryText</item>
+        <item name="android:textSize">@dimen/txt_size_medium</item>
+    </style>
+
+    <style name="TvChatOppoStyle">
+        <item name="android:textColor">?attr/attr_primaryText</item>
+        <item name="android:textSize">@dimen/txt_size_medium</item>
+    </style>
+
+    <style name="TvChatDateStyle">
+        <item name="android:textColor">?attr/attr_hintText</item>
+        <item name="android:textSize">@dimen/txt_size_caption</item>
+        <item name="android:alpha">0.65</item>
+    </style>
+
+</resources>

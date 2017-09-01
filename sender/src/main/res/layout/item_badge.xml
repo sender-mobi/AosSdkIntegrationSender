@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        tools:src="@drawable/ic_menu_camera" />
+
+    <RelativeLayout
+        android:layout_width="42dp"
+        android:layout_height="32dp"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/tv_badge_text"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:background="@drawable/shape_circle"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            tools:text="5"
+            android:layout_centerInParent="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"/>
+    </RelativeLayout>
+
+</RelativeLayout>
+
+    <!--    <?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        tools:src="@drawable/ic_menu_camera" />
+
+    <TextView
+        android:id="@+id/tv_badge_text"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        tools:text="5"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/shape_circle"/>
+
+    </RelativeLayout>-->

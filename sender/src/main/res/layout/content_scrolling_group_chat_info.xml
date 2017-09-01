@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nsv_group"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ui.GroupChatInfoActivity"
+    tools:showIn="@layout/activity_group_chat_info">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appbar"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/progress"
+            style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_below="@id/appbar"
+            android:indeterminate="true"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_fav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            app:srcCompat="@drawable/ic_star_purple" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/sv_favorite"
+            style="@style/TvLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/iv_fav"
+            android:layout_toEndOf="@+id/iv_fav"
+            android:layout_toRightOf="@+id/iv_fav"
+            android:paddingEnd="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingStart="@dimen/activity_horizontal_margin"
+            android:text="@string/chi_favorite" />
+
+        <ImageView
+            android:id="@+id/iv_block"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sv_favorite"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            app:srcCompat="@drawable/ic_block" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/sv_block"
+            style="@style/TvLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/iv_block"
+            android:layout_toEndOf="@+id/iv_block"
+            android:layout_toRightOf="@+id/iv_block"
+            android:paddingEnd="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingStart="@dimen/activity_horizontal_margin"
+            android:text="@string/chi_block" />
+
+        <ImageView
+            android:id="@+id/iv_encr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sv_block"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            app:srcCompat="@drawable/ic_encrypt" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/sv_encrypt"
+            style="@style/TvLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/iv_encr"
+            android:layout_toEndOf="@+id/iv_encr"
+            android:layout_toRightOf="@+id/iv_encr"
+            android:paddingEnd="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingStart="@dimen/activity_horizontal_margin"
+            android:text="@string/chi_encrypt" />
+
+        <ImageView
+            android:id="@+id/iv_mute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sv_encrypt"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            app:srcCompat="@drawable/ic_mute" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/sv_mute"
+            style="@style/TvLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/iv_mute"
+            android:layout_toEndOf="@+id/iv_mute"
+            android:layout_toRightOf="@+id/iv_mute"
+            android:paddingEnd="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingStart="@dimen/activity_horizontal_margin"
+            android:text="@string/chi_mute" />
+
+        <ImageView
+            android:id="@+id/iv_palette"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sv_mute"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            app:srcCompat="@drawable/ic_palette" />
+
+        <TextView
+            android:id="@+id/tv_palette"
+            style="@style/TvLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/iv_palette"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_toEndOf="@+id/iv_palette"
+            android:layout_toRightOf="@+id/iv_palette"
+            android:gravity="center_vertical"
+            android:text="@string/chi_palette" />
+
+        <ImageView
+            android:id="@+id/iv_leave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_palette"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            app:srcCompat="@drawable/ic_exit_sender" />
+
+        <TextView
+            android:id="@+id/tv_leave_chat"
+            style="@style/TvLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/iv_leave"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_toEndOf="@+id/iv_leave"
+            android:layout_toRightOf="@+id/iv_leave"
+            android:gravity="center_vertical"
+            android:text="@string/chi_leave_chat" />
+
+        <ImageView
+            android:id="@+id/iv_add_participant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_leave_chat"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            app:srcCompat="@drawable/ic_add_people" />
+
+        <TextView
+            android:id="@+id/tv_add_participant"
+            style="@style/TvLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/iv_add_participant"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_toEndOf="@+id/iv_add_participant"
+            android:layout_toRightOf="@+id/iv_add_participant"
+            android:gravity="center_vertical"
+            android:text="@string/chi_add_people" />
+
+        <View
+            android:id="@+id/v_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/iv_add_participant"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="@color/colorDivider" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/lv_members"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/v_line"
+            android:clipToPadding="false"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="10dp"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:nestedScrollingEnabled="false" />
+
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/empty"
+        android:icon="@drawable/ic_three_dots"
+        android:orderInCategory="101"
+        android:showAsAction="always"
+        android:title="dots">
+
+        <item
+            android:id="@+id/action_name"
+            android:showAsAction="ifRoom"
+            android:title="@string/dlg_change_name" />
+    </item>
+</menu>

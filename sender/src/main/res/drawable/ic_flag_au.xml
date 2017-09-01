@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1280dp"
+    android:height="640dp"
+    android:viewportHeight="5040"
+    android:viewportWidth="10080">
+    <group
+        android:scaleX="840"
+        android:scaleY="840">
+        <path
+            android:fillColor="#00008b"
+            android:pathData="M0 0L12 0 12 6 0 6Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M0 0L6 3M6 0L0 3"
+            android:strokeColor="#ffffff"
+            android:strokeWidth="0.6" />
+        <group>
+            <clip-path android:pathData="M0 0L0 1.5 7 1.5 7 3 6 3ZM6 0L3 0 3 3.5 0 3.5 0 3Z" />
+            <path
+                android:fillColor="#000000"
+                android:pathData="M0 0L6 3M6 0L0 3"
+                android:strokeColor="#ff0000"
+                android:strokeWidth="0.4" />
+        </group>
+        <path
+            android:fillColor="#000000"
+            android:pathData="M3 0l0 3.5m-3 -2l7 0"
+            android:strokeColor="#ffffff"
+            android:strokeWidth="1" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M3 0l0 3.5m-3 -2l7 0"
+            android:strokeColor="#ff0000"
+            android:strokeWidth="0.6" />
+        <path
+            android:fillColor="#00008b"
+            android:pathData="M0 3L6 3 6 0 8 0 8 4 0 4Z" />
+    </group>
+    <group
+        android:translateX="2520"
+        android:translateY="3780">
+        <group
+            android:scaleX="2.1"
+            android:scaleY="2.1">
+            <path
+                android:fillColor="#ffffff"
+                android:pathData="M0 -360L69.421398 -144.15502 281.45933 -224.45633 155.98847 -35.603349 350.97405 80.107536 125.09304 99.758368 156.19815 324.34879 0 160 -156.19815 324.34879 -125.09304 99.758368 -350.97405 80.107536 -155.98847 -35.603349 -281.45933 -224.45633l212.037932 80.30131z" />
+        </group>
+    </group>
+    <group
+        android:translateX="7560"
+        android:translateY="4200">
+        <path
+            android:fillColor="#ffffff"
+            android:pathData="M0 -360L69.421398 -144.15502 281.45933 -224.45633 155.98847 -35.603349 350.97405 80.107536 125.09304 99.758368 156.19815 324.34879 0 160 -156.19815 324.34879 -125.09304 99.758368 -350.97405 80.107536 -155.98847 -35.603349 -281.45933 -224.45633l212.037932 80.30131z" />
+    </group>
+    <group
+        android:translateX="6300"
+        android:translateY="2205">
+        <path
+            android:fillColor="#ffffff"
+            android:pathData="M0 -360L69.421398 -144.15502 281.45933 -224.45633 155.98847 -35.603349 350.97405 80.107536 125.09304 99.758368 156.19815 324.34879 0 160 -156.19815 324.34879 -125.09304 99.758368 -350.97405 80.107536 -155.98847 -35.603349 -281.45933 -224.45633l212.037932 80.30131z" />
+    </group>
+    <group
+        android:translateX="7560"
+        android:translateY="840">
+        <path
+            android:fillColor="#ffffff"
+            android:pathData="M0 -360L69.421398 -144.15502 281.45933 -224.45633 155.98847 -35.603349 350.97405 80.107536 125.09304 99.758368 156.19815 324.34879 0 160 -156.19815 324.34879 -125.09304 99.758368 -350.97405 80.107536 -155.98847 -35.603349 -281.45933 -224.45633l212.037932 80.30131z" />
+    </group>
+    <group
+        android:translateX="8680"
+        android:translateY="1869">
+        <path
+            android:fillColor="#ffffff"
+            android:pathData="M0 -360L69.421398 -144.15502 281.45933 -224.45633 155.98847 -35.603349 350.97405 80.107536 125.09304 99.758368 156.19815 324.34879 0 160 -156.19815 324.34879 -125.09304 99.758368 -350.97405 80.107536 -155.98847 -35.603349 -281.45933 -224.45633l212.037932 80.30131z" />
+    </group>
+    <group
+        android:translateX="8064"
+        android:translateY="2730">
+        <path
+            android:fillColor="#ffffff"
+            android:pathData="M0 -210L54.859957 -75.508253 199.72187 -64.893569 88.765275 28.841586 123.4349 169.89357 0 93.333333 -123.4349 169.89357 -88.765275 28.841586 -199.72187 -64.893569 -54.859957 -75.508253Z" />
+    </group>
+</vector>

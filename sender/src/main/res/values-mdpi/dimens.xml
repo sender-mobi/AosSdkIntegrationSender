@@ -1,0 +1,12 @@
+<resources>
+    <!--Animation-->
+    <item name="koef1" format="float" type="dimen">1.0</item>
+    <item name="koef2" format="float" type="dimen">1.75</item>
+    <item name="koef3" format="float" type="dimen">2.5</item>
+    <item name="padding_right" format="float" type="dimen">0.15</item>
+
+    <dimen name="status_bar_height">19dp</dimen>
+
+    <!--SelectImage size-->
+    <dimen name="image_size">72dp</dimen>
+</resources>

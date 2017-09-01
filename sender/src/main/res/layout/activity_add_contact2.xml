@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.AddContact2Activity">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/appbar"/>
+
+    <TextView
+        android:id="@+id/tv_no_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/msg_no_user"
+        android:layout_below="@+id/appbar"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        style="@style/TvLarge"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/iv_avatar"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_below="@+id/appbar"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_avatar"
+        android:layout_alignTop="@+id/iv_avatar"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_toEndOf="@+id/iv_avatar"
+        android:layout_toLeftOf="@+id/cb_user"
+        android:layout_toRightOf="@+id/iv_avatar"
+        android:layout_toStartOf="@+id/cb_user"
+        android:gravity="center_vertical"
+        style="@style/TvLarge"
+        tools:text="Phill Heath" />
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/cb_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_avatar"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/iv_avatar"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        app:buttonTint="@color/colorPrimary"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tv_add_company"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_name"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/adc_company_your_friend"
+        android:visibility="gone"
+        style="@style/TvChatStyle" />
+    android:textColor="@color/colorGray"
+    android:textSize="@dimen/txt_size_medium"
+
+    <ListView
+        android:id="@+id/lv_company"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tv_add_company"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:clipToPadding="false"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="8dp"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" />
+
+</RelativeLayout>

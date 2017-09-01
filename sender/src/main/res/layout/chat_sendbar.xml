@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="24dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin">
+
+            <include
+                android:id="@+id/transfer"
+                layout="@layout/chat_sendbar_item" />
+
+            <!--<include-->
+            <!--android:id="@+id/ask"-->
+            <!--layout="@layout/chat_sendbar_item" />-->
+
+            <include
+                android:id="@+id/recharge"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                layout="@layout/chat_sendbar_item"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+
+            <!--<include-->
+            <!--android:id="@+id/games"-->
+            <!--layout="@layout/chat_sendbar_item" />-->
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

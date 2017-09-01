@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TestSender</string>
+    <string name="provider_str" translatable="false">taras.com.ua.testsender.fileprovider</string>
+</resources>

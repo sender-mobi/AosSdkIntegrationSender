@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="attr_fitsSystemWindows_main_activity" format="boolean" />
+    <!--Main colors-->
+    <attr name="attr_color_primary" format="color" />
+    <attr name="attr_color_primary_dark" format="color" />
+    <attr name="attr_color_accent" format="color" />
+
+    <!--Dark text on light backgrounds-->
+    <attr name="attr_primaryText" format="color" />
+    <attr name="attr_secondaryText" format="color" />
+    <attr name="attr_hintText" format="color" />
+    <attr name="attr_dividers" format="color" />
+
+    <!--White text on dark backgrounds-->
+    <attr name="attr_primaryTextWhite" format="color" />
+    <attr name="attr_secondaryTextWhite" format="color" />
+    <attr name="attr_hintTextWhite" format="color" />
+    <attr name="attr_dividersWhite" format="color" />
+
+    <!--Chat bubbles-->
+    <attr name="attr_bubbleMy" format="reference" />
+    <attr name="attr_bubbleMyEncr" format="reference" />
+    <attr name="attr_bubbleMyHide" format="reference" />
+    <attr name="attr_bubbleOppo" format="reference" />
+    <attr name="attr_bubbleOppoEncr" format="reference" />
+    <attr name="attr_bubbleOppoHide" format="reference" />
+
+    <attr name="attr_background" format="color" />
+    <attr name="attr_itemBackground" format="color" />
+
+
+    <declare-styleable name="FlowLayout">
+        <attr name="android:orientation" />
+        <attr name="layoutDirection" format="enum">
+            <enum name="ltr" value="0" />
+            <enum name="rtl" value="1" />
+        </attr>
+        <attr name="debugDraw" format="boolean" />
+        <attr name="weightDefault" format="float" />
+        <attr name="android:gravity" />
+    </declare-styleable>
+    <declare-styleable name="FlowLayout_LayoutParams">
+        <attr name="layout_newLine" format="boolean" />
+        <attr name="layout_weight" format="float" />
+        <attr name="android:layout_gravity" />
+    </declare-styleable>
+
+    <declare-styleable name="CircularProgressBar">
+        <attr name="width_stroke" format="dimension" />
+        <attr name="is_shadow" format="boolean" />
+        <attr name="innerPadding" format="dimension" />
+        <attr name="progress" format="integer" />
+        <attr name="src" format="reference|color" />
+        <attr name="stroke_color" format="color" />
+        <attr name="duration" format="integer" />
+        <attr name="mode_click" format="enum">
+            <enum name="tap" value="0" />
+            <enum name="hold" value="1" />
+            <enum name="manual" value="2" />
+        </attr>
+    </declare-styleable>
+
+</resources>

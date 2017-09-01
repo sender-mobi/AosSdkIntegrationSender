@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/attr_background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:id="@+id/rl_toolbar">
+
+        <FrameLayout
+            android:id="@+id/fl_back"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ic_arrow_back" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="?attr/actionBarSize"
+            android:layout_marginStart="?attr/actionBarSize"
+            android:layout_toLeftOf="@+id/ll_action"
+            android:layout_toStartOf="@+id/ll_action"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/dlg_select_contact"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/txt_size_large" />
+
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="?attr/actionBarSize"
+            android:layout_marginStart="?attr/actionBarSize"
+            android:layout_toLeftOf="@+id/ll_action"
+            android:layout_toStartOf="@+id/ll_action"
+            android:ellipsize="end"
+            android:hint="@string/tst_search"
+            android:maxLines="1"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/hintTextWhite"
+            android:textSize="@dimen/txt_size_large"
+            android:visibility="gone"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:background="@android:color/transparent"/>
+
+        <LinearLayout
+            android:id="@+id/ll_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true">
+
+            <FrameLayout
+                android:id="@+id/fl_search"
+                android:layout_width="?attr/actionBarSize"
+                android:layout_height="?attr/actionBarSize">
+
+                <android.support.v7.widget.AppCompatCheckBox
+                    android:id="@+id/cb_search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:button="@drawable/selector_search_sender"
+                    android:clickable="false" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/fl_done"
+                android:layout_width="?attr/actionBarSize"
+                android:layout_height="?attr/actionBarSize"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/iv_done"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/ic_done" />
+            </FrameLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="8dp"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:layout_below="@+id/rl_toolbar"/>
+
+    <TextView
+        android:id="@+id/tv_empty_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/src_the_list_is_empty"
+        android:layout_centerInParent="true"
+        android:textColor="@color/hintText"
+        style="@style/TvRegular"
+        android:visibility="gone"/>
+
+</RelativeLayout>

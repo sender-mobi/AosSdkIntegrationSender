@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="locales">
+        <item>English</item>
+        <item>Русский</item>
+        <item>Українська</item>
+    </array>
+    <array name="key_locale">
+        <item>en</item>
+        <item>ru</item>
+        <item>uk</item>
+    </array>
+    <integer-array name="icons">
+        <item>@drawable/selector_star</item>
+        <item>@drawable/selector_acc</item>
+        <item>@drawable/selector_groups</item>
+        <item>@drawable/selector_business</item>
+        <item>@drawable/selector_oper</item>
+        <item>@drawable/selector_dots</item>
+    </integer-array>
+</resources>

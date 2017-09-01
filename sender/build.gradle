@@ -1,0 +1,89 @@
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.+'
+    }
+}
+apply plugin: 'com.android.library'
+apply plugin: 'io.fabric'
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+}
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 219
+        versionName "2.1.9"
+        vectorDrawables.useSupportLibrary = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+        exclude 'lib/x86_64/darwin/libscrypt.dylib'
+//        exclude 'lib/x86_64/freebsd/libscrypt.so'
+//        exclude 'lib/x86_64/linux/libscrypt.so'
+//        exclude 'com/google/thirdparty/publicsuffix/PublicSuffixPatterns.gwt.xml'
+//        exclude 'com/google/thirdparty/publicsuffix/PublicSuffixType.gwt.xml'
+//        exclude 'org/bitcoinj/crypto/mnemonic/wordlist/english.txt'
+//        exclude 'org/bitcoinj/crypto/cacerts'
+//        exclude 'org.bitcoin.production.checkpoints.txt'
+//        exclude 'org.bitcoin.test.checkpoints.txt'
+//        exclude 'messages.properties'
+//        exclude 'META-INF/services/sun.net.spi.nameservice.NameServiceDescriptor'
+    }
+
+    //remove and check app
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    /*Android*/
+    compile 'com.android.support:design:25.3.0'
+    compile 'com.android.support:recyclerview-v7:25.3.0'
+    /*Google*/
+    compile 'com.google.android.gms:play-services-gcm:10.2.0'
+    compile 'com.google.android.gms:play-services-maps:10.2.0'
+    /*Load image and okhttp*/
+    compile 'com.squareup.okhttp3:okhttp:3.2.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    /*Crypting*/
+    compile 'com.madgag.spongycastle:prov:1.54.0.0'
+    compile 'org.bitcoinj:bitcoinj-core:0.14.3'
+    /*Scan QR*/
+    compile 'com.journeyapps:zxing-android-embedded:3.2.0@aar'
+    compile 'com.google.zxing:core:3.2.1'
+    /*Crop image*/
+    compile 'com.theartofdev.edmodo:android-image-cropper:2.3.+'
+    /*For chips*/
+    compile project(':chips')
+
+//    /*Leak memory*/
+//    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5'
+//    releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5'
+//    testCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5'
+}
+apply plugin: 'com.google.gms.google-services'

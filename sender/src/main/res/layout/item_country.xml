@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iv_flag"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/tv_country"
+        style="@style/TvLarge"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        tools:text="Armenia djkdkdkdkjfkjnfjndfjndjfnjdnj oifejfiej"
+        android:layout_marginLeft="@dimen/country_padding"
+        android:layout_marginStart="@dimen/country_padding"/>
+
+    <TextView
+        android:id="@+id/tv_code"
+        style="@style/TvLarge"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        tools:text="+3456"
+        android:gravity="right"
+        android:layout_gravity="center_vertical"/>
+</LinearLayout>
